@@ -1,0 +1,16 @@
+[submodule "webapps/navbar"]
+	path = webapps/navbar
+	url = https://github.com/profcomff/navbar-element
+	branch = main
+[submodule "webapps/timetable"]
+	path = webapps/timetable
+	url = https://github.com/profcomff/timetable-webapp
+	branch = main
+[submodule "webapps/services"]
+	path = webapps/services
+	url = https://github.com/profcomff/services-webapp
+	branch = main
+[submodule "webapps/aggregator"]
+	path = webapps/aggregator
+	url = https://github.com/profcomff/aggregator-app
+	branch = main
