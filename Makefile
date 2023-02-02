@@ -1,30 +1,30 @@
 install:
-	cd ./webapps/aggregator && yarn install && \
-	cd ../navbar && yarn install && \
-	cd ../services && yarn install && \
-	cd ../timetable && yarn install
+	cd ./webapps/aggregator && yarn install
+	cd ./webapps/navbar && yarn install
+	cd ./webapps/services && yarn install
+	cd ./webapps/timetable && yarn install
 
 lint:
-	cd ./webapps/aggregator && yarn run lint && \
-	cd ../navbar && yarn run lint && \
-	cd ../services && yarn run lint && \
-	cd ../timetable && yarn run lint
+	cd ./webapps/aggregator && yarn run lint
+	cd ./webapps/navbar && yarn run lint
+	cd ./webapps/services && yarn run lint
+	cd ./webapps/timetable && yarn run lint
 
 lint-fix:
-	cd ./webapps/aggregator && yarn run lint:fix && \
-	cd ../navbar && yarn run lint:fix && \
-	cd ../services && yarn run lint:fix && \
-	cd ../timetable && yarn run lint:fix
+	cd ./webapps/aggregator && yarn run lint:fix
+	cd ./webapps/navbar && yarn run lint:fix
+	cd ./webapps/services && yarn run lint:fix
+	cd ./webapps/timetable && yarn run lint:fix
 
 format: 
-	cd ./webapps/aggregator && yarn run format && \
-	cd ../navbar && yarn run format && \
-	cd ../services && yarn run format && \
-	cd ../timetable && yarn run format
+	cd ./webapps/aggregator && yarn run format
+	cd ./webapps/navbar && yarn run format
+	cd ./webapps/services && yarn run format
+	cd ./webapps/timetable && yarn run format
 
 format-write: 
-	cd ./webapps/aggregator && yarn run format:write && \
-	cd ../navbar && yarn run format:write && \
-	cd ../services && yarn run format:write && \
-	cd ../timetable && yarn run format:write
+	cd ./webapps/aggregator && yarn run format:write
+	cd ./webapps/navbar && yarn run format:write
+	cd ./webapps/services && yarn run format:write
+	cd ./webapps/timetable && yarn run format:write
 
