@@ -2,28 +2,33 @@ module.exports = {
   apps: [
     {
       name: "aggregator",
-      script:
-        "yarn --cwd ./webapps/aggregator && yarn --cwd ./webapps/aggregator start",
+      cwd: './webapps/aggregator',
+      script: "yarn && yarn start",
     },
     {
       name: "navbar",
-      script:
-        "yarn --cwd ./webapps/navbar && yarn --cwd ./webapps/navbar start",
+      cwd: './webapps/navbar',
+      script: "yarn && yarn start",
     },
     {
       name: "services",
-      script:
-        "yarn --cwd ./webapps/services && yarn --cwd ./webapps/services start",
+      cwd: './webapps/services',
+      script: "yarn && yarn start",
     },
     {
       name: "timetable",
-      script:
-        "yarn --cwd ./webapps/timetable && yarn --cwd ./webapps/timetable start",
+      cwd: './webapps/timetable',
+      script: "yarn && yarn start",
     },
     {
       name: "toolbar",
-      script:
-        "yarn --cwd ./webapps/toolbar && yarn --cwd ./webapps/toolbar start",
+      cwd: './webapps/toolbar',
+      script: "yarn && yarn start",
+    },
+    {
+      name: "devtools",
+      cwd: './webapps/devtools',
+      script: "yarn && yarn start",
     },
   ],
 };
