@@ -1,0 +1,22 @@
+{
+    "name": "webapp-workplace",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/profcomff/common.git",
+    "author": "Artem Netsvetaev <physphile@vk.com>",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint --ext .vue --ext .js .",
+        "lint:fix": "eslint --ext .vue --ext .js --fix .",
+        "format": "prettier --check .",
+        "format:write": "prettier --write ."
+    },
+    "devDependencies": {
+        "@vue/eslint-config-prettier": "^7.0.0",
+        "@babel/eslint-parser": "^7.15.0",
+        "@babel/core": "^7.15.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "eslint": "^8.34.0",
+        "prettier": "^2.8.4"
+    }
+}
