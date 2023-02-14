@@ -23,4 +23,4 @@
 	url = https://github.com/profcomff/devtools-webapp.git
 [submodule "packages/common"]
 	path = packages/common
-	url = https://github.com/profcomff/common.git
+	url = https://github.com/profcomff/ui-common.git
