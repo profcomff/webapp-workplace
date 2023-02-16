@@ -30,5 +30,10 @@ module.exports = {
       cwd: './webapps/devtools',
       script: "yarn && yarn start",
     },
+    {
+      name: "auth",
+      cwd: './webapps/auth',
+      script: "yarn && yarn start",
+    },
   ],
 };

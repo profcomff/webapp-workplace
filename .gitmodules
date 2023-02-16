@@ -21,3 +21,7 @@
 [submodule "webapps/devtools"]
 	path = webapps/devtools
 	url = https://github.com/profcomff/devtools-webapp.git
+[submodule "webapps/auth"]
+	path = webapps/auth
+	url = https://github.com/profcomff/auth-webapp.git
+	branch = main
