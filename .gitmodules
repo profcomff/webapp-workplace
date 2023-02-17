@@ -25,3 +25,7 @@
 	path = webapps/auth
 	url = https://github.com/profcomff/auth-webapp.git
 	branch = main
+[submodule "packages/common"]
+	path = packages/common
+	url = https://github.com/profcomff/ui-common.git
+	branch = main
