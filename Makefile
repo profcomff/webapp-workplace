@@ -6,6 +6,14 @@ install:
 	cd ./webapps/devtools && yarn install
 	cd ./webapps/auth && yarn install
 
+upgrade:
+	cd ./webapps/aggregator && yarn upgrade --latest
+	cd ./webapps/navbar && yarn upgrade --latest
+	cd ./webapps/services && yarn upgrade --latest
+	cd ./webapps/timetable && yarn upgrade --latest
+	cd ./webapps/devtools && yarn upgrade --latest
+	cd ./webapps/auth && yarn upgrade --latest
+
 lint:
 	cd ./webapps/aggregator && yarn run lint
 	cd ./webapps/navbar && yarn run lint
